@@ -152,3 +152,73 @@ body {
 }
 
 /* -------------------- */
+
+.form-wrapper {
+  width: 30vw;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 3px solid #198754;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2vw;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .form-wrapper {
+    width: 80%;
+  }
+}
+
+.form-wrapper h3 {
+  text-align: center;
+}
+
+.form-wrapper button {
+  width: 100%;
+  margin-top: 2vh;
+  font-weight: bold;
+  color: white;
+  background-color: #198754;
+  border: 2px solid #198754;
+}
+
+.form-wrapper button:hover {
+  color: #198754;
+  background-color: white;
+  transition: 200ms;
+}
+
+.form-wrapper input {
+  border: 2px solid #198754;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+.form-wrapper input:focus {
+  box-shadow: none;
+  border: 2px solid #198754;
+}
+
+.form-wrapper textarea {
+  border: 2px solid #198754;
+  -webkit-appearance: none;
+  outline: none;
+  resize: none;
+}
+
+.form-wrapper textarea:focus {
+  box-shadow: none;
+  border: 2px solid #198754;
+}
+
+.form-wrapper select {
+  border: 2px solid #198754;
+  appearance: auto;
+}
+
+.form-wrapper select:focus {
+  box-shadow: none;
+  border: 2px solid #198754;
+}
